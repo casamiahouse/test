@@ -23,10 +23,6 @@ const faqs = [
         a: "Stiamo lavorando per lanciare Casamia il prima possibile. Iscriviti ora per essere tra i primi ad accedere e ricevere vantaggi esclusivi riservati agli early adopter."
     },
     {
-        q: "I miei dati sono al sicuro?",
-        a: "Sì. Trattiamo i tuoi dati nel pieno rispetto del GDPR. Le informazioni personali non vengono mai condivise con terze parti senza il tuo consenso esplicito."
-    },
-    {
         q: "Ho bisogno di esperienza per usare Casamia?",
         a: "No. La piattaforma è pensata per essere semplice e intuitiva. L'assistente AI ti accompagna passo per passo, senza richiedere alcuna conoscenza tecnica o legale."
     }
