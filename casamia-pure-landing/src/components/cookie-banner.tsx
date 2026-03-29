@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Script from 'next/script'
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID
+const GA_ID = 'G-QYW36V7ZE5'
 
 export default function CookieBanner() {
   const [consent, setConsent] = useState<'accepted' | 'declined' | null>(null)
@@ -25,7 +25,7 @@ export default function CookieBanner() {
 
   return (
     <>
-      {consent === 'accepted' && GA_ID && (
+      {consent === 'accepted' && (
         <>
           <Script
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
