@@ -11,20 +11,24 @@ import Link from 'next/link'
 
 const faqs = [
     {
-        q: "Come è possibile che il servizio sia a zero provvigioni?",
-        a: "Casamia nasce proprio per eliminare gli enormi costi di intermediazione delle agenzie tradizionali. Offriamo una piattaforma tecnologica avanzata guidata dall'AI, automatizzando i processi burocratici per farti risparmiare migliaia di euro."
+        q: "Come funziona Casamia?",
+        a: "Casamia è una piattaforma che mette in contatto diretto compratori e venditori, eliminando l'intermediazione tradizionale. L'intelligenza artificiale ti guida in ogni fase: dalla pubblicazione dell'annuncio fino alla firma finale."
     },
     {
-        q: "Com'è garantita la sicurezza per compratori e venditori?",
-        a: "Assolutamente garantita. Il nostro sistema di Intelligenza Artificiale verifica i documenti (visure, planimetrie, identità SPID) interrogando database ufficiali per offrirti compravendite limpide, sicure e connettendoti a veri professionisti (Notai, ecc.) per l'atto finale."
+        q: "Il servizio è davvero gratuito?",
+        a: "Sì. Casamia nasce con l'obiettivo di rendere accessibile la compravendita immobiliare a tutti, senza costi di intermediazione. Il nostro modello di business non si basa sulle provvigioni."
     },
     {
-        q: "L'assistente Casabot è disponibile 24 ore su 24?",
-        a: "Sì, Casabot non dorme mai. Sa rispondere immediatamente su tutte le caratteristiche tecniche, strutturali ed energetiche dell'immobile, e prenota le visite in autonomia incrociando le tue agende personali."
+        q: "Quando sarà disponibile la piattaforma?",
+        a: "Stiamo lavorando per lanciare Casamia il prima possibile. Iscriviti ora per essere tra i primi ad accedere e ricevere vantaggi esclusivi riservati agli early adopter."
     },
     {
-        q: "Ho bisogno di essere esperto per usare Casamia?",
-        a: "Assolutamente no. Casabot ti guida passo per passo in modo semplice e conversazionale, come parlare con un amico esperto. Non è richiesta nessuna conoscenza tecnica o legale."
+        q: "I miei dati sono al sicuro?",
+        a: "Sì. Trattiamo i tuoi dati nel pieno rispetto del GDPR. Le informazioni personali non vengono mai condivise con terze parti senza il tuo consenso esplicito."
+    },
+    {
+        q: "Ho bisogno di esperienza per usare Casamia?",
+        a: "No. La piattaforma è pensata per essere semplice e intuitiva. L'assistente AI ti accompagna passo per passo, senza richiedere alcuna conoscenza tecnica o legale."
     }
 ]
 
