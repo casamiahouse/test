@@ -15,10 +15,6 @@ const faqs = [
         a: "Casamia è una piattaforma che mette in contatto diretto compratori e venditori, eliminando l'intermediazione tradizionale. L'intelligenza artificiale ti guida in ogni fase: dalla pubblicazione dell'annuncio fino alla firma finale."
     },
     {
-        q: "Il servizio è davvero gratuito?",
-        a: "Sì. Casamia nasce con l'obiettivo di rendere accessibile la compravendita immobiliare a tutti, senza costi di intermediazione. Il nostro modello di business non si basa sulle provvigioni."
-    },
-    {
         q: "Quando sarà disponibile la piattaforma?",
         a: "Stiamo lavorando per lanciare Casamia il prima possibile. Iscriviti ora per essere tra i primi ad accedere e ricevere vantaggi esclusivi riservati agli early adopter."
     },
