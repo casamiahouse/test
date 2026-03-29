@@ -7,8 +7,18 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Casamia - Il tuo portale immobiliare intelligente',
-  description: 'Compra e vendi casa senza agenzia. L\'intelligenza artificiale al tuo servizio.',
+  title: 'Casamia - Compra e Vendi Casa Senza Agenzia',
+  description: 'Casamia è la piattaforma immobiliare con intelligenza artificiale che elimina le provvigioni. Compra e vendi casa in modo semplice, sicuro e senza intermediari.',
+  keywords: ['compra casa', 'vendi casa', 'senza agenzia', 'portale immobiliare', 'intelligenza artificiale', 'zero provvigioni', 'immobili italia'],
+  metadataBase: new URL('https://casamia.it.com'),
+  openGraph: {
+    title: 'Casamia - Compra e Vendi Casa Senza Agenzia',
+    description: 'La piattaforma immobiliare con AI che elimina le provvigioni.',
+    url: 'https://casamia.it.com',
+    siteName: 'Casamia',
+    locale: 'it_IT',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
