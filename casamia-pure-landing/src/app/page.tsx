@@ -4,7 +4,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Sparkles, CheckCircle2, Lock, BrainCircuit, Wallet, ShieldCheck, Mail, ChevronDown } from 'lucide-react'
-import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
@@ -85,7 +84,8 @@ export default function LandingPage() {
             <header className="absolute top-0 w-full z-50 p-6">
                 <div className="container mx-auto flex items-center justify-between">
                     <Link href="/">
-                        <Image src="/logo.png" alt="Casamia" width={48} height={48} priority />
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src="/logo.png" alt="Casamia" className="h-12 w-auto" />
                     </Link>
                 </div>
             </header>
