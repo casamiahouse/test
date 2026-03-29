@@ -3,6 +3,12 @@
 import { useState, useEffect } from 'react'
 import Script from 'next/script'
 
+declare global {
+  interface Window {
+    gtag: (...args: unknown[]) => void
+  }
+}
+
 const GA_ID = 'G-QYW36V7ZE5'
 
 export default function CookieBanner() {
@@ -16,6 +22,15 @@ export default function CookieBanner() {
   function accept() {
     localStorage.setItem('cookie-consent', 'accepted')
     setConsent('accepted')
+    // Aggiorna Consent Mode v2
+    if (typeof window.gtag === 'function') {
+      window.gtag('consent', 'update', {
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted',
+        'ad_storage': 'granted',
+        'analytics_storage': 'granted',
+      })
+    }
   }
 
   function decline() {
