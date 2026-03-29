@@ -19,8 +19,8 @@ const faqs = [
         a: "Stiamo lavorando per lanciare Casamia il prima possibile. Iscriviti ora per essere tra i primi ad accedere e ricevere vantaggi esclusivi riservati agli early adopter."
     },
     {
-        q: "Ho bisogno di esperienza per usare Casamia?",
-        a: "No. La piattaforma è pensata per essere semplice e intuitiva. L'assistente AI ti accompagna passo per passo, senza richiedere alcuna conoscenza tecnica o legale."
+        q: "Come funziona Casabot?",
+        a: "Casabot è il tuo assistente AI disponibile 24 ore su 24. Puoi chiedergli informazioni su qualsiasi immobile, ricevere stime di prezzo, prenotare visite e avere supporto in ogni fase della compravendita, il tutto in modo semplice e conversazionale."
     }
 ]
 
