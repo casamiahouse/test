@@ -85,7 +85,7 @@ export default function LandingPage() {
                 <div className="container mx-auto flex items-center justify-between">
                     <Link href="/">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src="/logo.png" alt="Casamia" className="h-12 w-auto" />
+                        <img src="/logo.png" alt="Casamia" className="h-20 w-auto" />
                     </Link>
                 </div>
             </header>
