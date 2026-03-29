@@ -85,7 +85,7 @@ export default function LandingPage() {
             <header className="absolute top-0 w-full z-50 p-6">
                 <div className="container mx-auto flex items-center justify-between">
                     <Link href="/">
-                        <Image src="/logo.png" alt="Casamia" width={120} height={40} priority />
+                        <Image src="/logo.png" alt="Casamia" width={48} height={48} priority />
                     </Link>
                 </div>
             </header>
